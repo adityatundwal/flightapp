@@ -12,32 +12,10 @@ class _HotelsState extends State<Hotels> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        height: 400,
-        width: 300,
-        child: Center(
-          child: DropdownButton(
-            value: dropdownValue,
-            onChanged: (String? newValue) {
-              setState(() {
-                dropdownValue = newValue!;
-              });
-            },
-            items: const [
-              DropdownMenuItem(
-                value: 'One',
-                child: Text('One'),
-              ),
-              DropdownMenuItem(
-                value: 'Two',
-                child: Text('Two'),
-              ),
-              DropdownMenuItem(
-                value: 'Three',
-                child: Text('Three'),
-              ),
-            ],
-          ),
-        ));
+    return Column(
+      children: [
+        Container(),
+      ],
+    );
   }
 }

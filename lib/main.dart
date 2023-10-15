@@ -28,7 +28,7 @@ class flightapp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: mycolor,
+        primarySwatch: Colors.deepPurple,
       ),
       home: Home(),
     );

@@ -1,5 +1,4 @@
 import 'package:flightapp/screens/HomePage.dart';
-import 'package:flightapp/screens/tabs/flights.dart';
 import 'package:flightapp/util/bottomBar.dart';
 import 'package:flutter/material.dart';
 

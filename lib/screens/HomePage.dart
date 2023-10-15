@@ -1,4 +1,3 @@
-import 'package:flightapp/screens/FlightSearch.dart';
 import 'package:flightapp/screens/tabs/events.dart';
 import 'package:flightapp/screens/tabs/flights.dart';
 import 'package:flightapp/screens/tabs/hotels.dart';
